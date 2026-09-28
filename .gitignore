@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 生成的课表与调试文件（可能包含个人信息，不要提交）
+*.ics
+captcha.png
+calendar.json
+timetable*.json
+api_list.json
+last_semester.json
+
+# 构建产物
+build/
+dist/
+*.exe
+*.zip
+
+# 本地归档与编辑器
+_archive*/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
